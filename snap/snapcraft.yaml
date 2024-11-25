@@ -1,0 +1,30 @@
+name: changing-world
+base: core22
+version: '1.0.0'
+summary: Simple snap with menu entry
+description: |
+  This is a sample snap that generates a random menu entry when getting installed or updated
+
+grade: stable
+confinement: strict
+
+parts:
+  # used to copy the files from the dump folder into the snap and to install two packages used to generate the package-manifest.
+  dump:    
+    plugin: dump
+    source: ./dump
+    stage-packages:
+    - jq # jq tool to manipulate json files using shell.
+apps:
+  my-service:
+    command: bin/service.sh
+    daemon: simple
+
+#slots définit les interfaces que le snap expose  permet à d'autres snaps de se connecter à ce snap pour accéder à son contenu. 
+slots: 
+  package-assets:
+    interface: content
+    content: package-assets
+    source:
+      read: #Le chemin d'accès au contenu partagé est spécifié par source, qui pointe vers $SNAP_DATA/package-assets/$SNAPCRAFT_PROJECT_NAME.
+      - $SNAP_DATA/package-assets/$SNAPCRAFT_PROJECT_NAME
