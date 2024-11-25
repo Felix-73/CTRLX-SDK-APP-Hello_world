@@ -254,6 +254,6 @@ Therefore declaring all interfaces specific for each app and hook should be the 
 
 Penser à donner les permissions avec ```chmod ```
 
-Now build the snap using "snapcraft" and install it on your ctrlX CORE, on every reinstall, it will change the name of the menu entry.
+install it on your ctrlX CORE, on every reinstall, it will change the name of the menu entry.
 
 Thats it.
