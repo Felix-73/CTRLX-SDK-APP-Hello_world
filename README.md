@@ -2,7 +2,7 @@
 
 ## Avant propo
 
-Ce mimi projet provient du sdk du Ctrlx. je l'ai légerement simplifié en enlevant la fonctionnalité wamerican qui permet de generer des nom aléatoires et ajouté des commentaires. Il permet de comprendre la structure des applications snap et son intégration dans l'environnement ctlrX.
+Ce mimi projet provient du sdk du Ctrlx [samples-snap/generate-manifest](https://github.com/boschrexroth/ctrlx-automation-sdk/tree/main/samples-snap/generate-manifest) je l'ai légerement simplifié en enlevant la fonctionnalité wamerican qui permet de generer des nom aléatoires et ajouté des commentaires. Il permet de comprendre la structure des applications snap et son intégration dans l'environnement ctlrX.
 
 ## Goal
 
