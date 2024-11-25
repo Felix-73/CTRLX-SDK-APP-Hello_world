@@ -18,7 +18,7 @@ Basic understanding of:
 - [hooks](https://snapcraft.io/docs/supported-snap-hooks)
 - [package-manifest](https://boschrexroth.github.io/ctrlx-automation-sdk/package-manifest.html)
 
-## Creating the snap ( CETTE PARTIE EST DEJA FAITE MAIS PERMET DE COMPRENDRE LES ETAPES SI ON PART DE FROM SRATCH )
+## Creating the snap ( CETTE PARTIE EST DEJA FAITE DANS CE PROJET MAIS PERMET DE COMPRENDRE LES ETAPES SI ON PART FROM SRATCH )
 
 Choose an empty folder and initialize the snap enviroment by using snapcraft
 
