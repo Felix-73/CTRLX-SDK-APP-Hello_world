@@ -8,6 +8,12 @@ description: |
 grade: stable
 confinement: strict
 
+architectures:
+  - build-on: [amd64, arm64]
+    build-for: [amd64]
+  - build-on: [amd64, arm64]
+    build-for: [arm64]
+
 parts:
   # used to copy the files from the dump folder into the snap and to install two packages used to generate the package-manifest.
   dump:    
